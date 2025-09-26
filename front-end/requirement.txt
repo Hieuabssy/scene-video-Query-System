@@ -1,0 +1,4 @@
+requests
+gradio
+aiohttp
+aiofiles

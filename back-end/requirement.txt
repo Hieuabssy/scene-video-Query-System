@@ -1,0 +1,12 @@
+faiss-cpu
+numpy
+torch
+open-clip-torch
+Pillow
+googletrans==4.0.0-rc1
+aiohttp
+aiofiles
+fastapi
+pydantic
+uvicorn[standard]
+python-multipart

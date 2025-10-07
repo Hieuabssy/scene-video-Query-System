@@ -83,6 +83,7 @@ python -m uvicorn main:app --reload
 <img src="./demo/demo3.png" alt="Giao diện chính" width="600">
 
 ### You can watch demo video on youtube
+🎬 [Watch the Demo on YouTube](https://www.youtube.com/watch?v=H0iJYAqQYwc)
 ## 📦 Dataset
 
 This system is designed for **Vietnamese news and current affairs videos on youtube**:

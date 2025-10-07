@@ -66,6 +66,23 @@ pip install -r requirement.txt
 - Download [**folder_index.json**](https://drive.google.com/file/d/1AR819cau_miEzzxMMMTBQvpu43bpWiyl/view?usp=sharing) and [**image_paths.npy**](https://drive.google.com/file/d/1_wBVG7eShKgycMsLfwq8emsQmXA51R6g/view?usp=drive_link)
 
 You can see these files on my drive. Put these files in the same structure in the Project Structure section.
+
+### 4. Run demo
+- In front-end:
+```bash
+python mmain.py
+```
+- In back-end:
+```bash
+python -m uvicorn main:app --reload
+```
+
+##  Demo
+### This is the main interface:
+<img src="./demo/demo2.png" alt="Giao diện chính" width="600">
+<img src="./demo/demo3.png" alt="Giao diện chính" width="6`00">
+
+### You can watch demo video on youtube
 ## 📦 Dataset
 
 This system is designed for **Vietnamese news and current affairs videos on youtube**:

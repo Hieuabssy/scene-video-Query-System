@@ -41,19 +41,6 @@ The Scene Video Query System is an end-to-end solution that enables semantic sea
 | **Vector Indexing** | FAISS | Builds efficient similarity search index |
 | **Retrieval System** | Cosine Similarity | Returns most relevant scenes |
 
-## 📋 Requirements
-
-### System Requirements
-- **OS**: Linux, macOS, or Windows
-- **GPU**: NVIDIA GPU with CUDA support (recommended)
-- **RAM**: 16GB minimum
-- **Storage**: 100GB+ for video data and index
-
-### Software Dependencies
-```
-Python >= 3.8
-CUDA >= 11.0 (for GPU acceleration)
-```
 
 ## 🚀 Installation
 
@@ -65,14 +52,9 @@ cd scene-video-Query-System
 
 ### 2. Create Virtual Environment
 ```bash
-python -m venv venv
+conda create --name forntend python=3.11
+conda create --name backend python=3.11
 
-# On Linux/macOS
-source venv/bin/activate
-
-# On Windows
-venv\Scripts\activate
-```
 
 ### 3. Install Dependencies
 ```bash

@@ -80,7 +80,7 @@ python -m uvicorn main:app --reload
 ##  Demo
 ### This is the main interface:
 <img src="./demo/demo2.png" alt="Giao diện chính" width="600">
-<img src="./demo/demo3.png" alt="Giao diện chính" width="6`00">
+<img src="./demo/demo3.png" alt="Giao diện chính" width="600">
 
 ### You can watch demo video on youtube
 ## 📦 Dataset

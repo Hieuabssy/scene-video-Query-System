@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  elasticsearch:
+    build: .
+    container_name: elasticsearch-dev
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false # Tắt bảo mật để dễ dàng phát triển trên local
+    ports:
+      - "9200:9200" # Ánh xạ cổng 9200 của container ra cổng 9200 của máy bạn
+    volumes:
+      - esdata:/usr/share/elasticsearch/data # Lưu dữ liệu để không bị mất khi khởi động lại
+
+volumes:
+  esdata:
